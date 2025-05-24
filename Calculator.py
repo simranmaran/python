@@ -1,8 +1,3 @@
-# while True:
-#     print("1.addition \n2 subtration \n3 multi ")
-
-
-#CALCULATOR BANA KE LANA HE
 while True:
     print("1. Addition\n 2. Subtraction\n 3. Multiplication\n 4. Division\n 5. Off")
     n = int(input("Enter the operation num: "))
