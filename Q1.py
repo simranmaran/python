@@ -30,12 +30,12 @@
 # print(s)
 
 
-n=int(input("enter the number="))
-for i in range(n):
-    x='A'
-    for j in range(0,n):
-        print(chr(ord(x)+j),end=' ')
-    print() 
+# n=int(input("enter the number="))
+# for i in range(n):
+#     x='A'
+#     for j in range(0,n):
+#         print(chr(ord(x)+j),' ',end=' ')
+#     print() 
      
     
 
