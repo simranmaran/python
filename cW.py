@@ -13,7 +13,7 @@
 # map(fun_name,iterator 1, iterator2,....)
 
 # map(fun_name,collection 1, collection2,....)
-#................................................
+
 # l=[1,2,3,4,5]
 # def sqr(n):
 #     return n**2
