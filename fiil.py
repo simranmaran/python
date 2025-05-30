@@ -81,3 +81,33 @@
 #         return sum+x
 # x=reduce(min_no,l1,0)
 # print(x)
+#................................................................
+#  Lembda function...............................
+#lemba function=esa function jiska koi name nahi hota he ,or yeh keyword he
+#single line ka exoression solve krne ke liye hota he
+
+# lambda(parameters):expression
+# x=lambda x,y:print(x+y)
+# p=int(input("enter num"))
+# q=int(input("enter num"))
+# x(p,q) 
+
+#............................................
+
+# x=lambda x,y:x+y
+# p=int(input("enter num"))
+# q=int(input("enter num"))
+# z=x(p,q) 
+# print(z)
+#........................................
+
+# x=lambda x,y: print(x+y)
+# p=int(input("enter num"))
+# q=int(input("enter num"))
+# z=x(p,q) 
+# print(z)
+# print(z)
+# print(z)
+
+#........................................
+
