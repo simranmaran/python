@@ -2,9 +2,9 @@
 #ek function ke argument me  agr ham ek or func pss  krde to usko hOF boltey he
 
 
-                                                     #hof
+                                                     # hof
                                                     # || 
-              #map(),filter(),reduce(),lembda(),decortator(),generator()
+              # map(),filter(),reduce(),lembda(),decortator(),generator()
               
               
 #map()..................
@@ -46,7 +46,4 @@
 # print(list(p))
 
 #...................................................
-
-
-
 
