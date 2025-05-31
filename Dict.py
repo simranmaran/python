@@ -18,7 +18,7 @@
 
 
 # m={2:'simran',2:56, '3':"mtech"}
-# print(m)
+# print(m)a
 
 
 #dict method
