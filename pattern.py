@@ -107,3 +107,11 @@ for i in range(5,0,-1):
     for j in range(1,i+1):
         print("*",end=" ")
     print("\n")
+    
+    
+for s in range(6,0,-1):
+    for m in range(1,i+1):
+        print("*",end=" ")
+    print("\n")
+    
+
