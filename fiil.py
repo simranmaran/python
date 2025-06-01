@@ -92,14 +92,14 @@
 # q=int(input("enter num"))
 # x(p,q) 
 
-#............................................
+
 
 # x=lambda x,y:x+y
 # p=int(input("enter num"))
 # q=int(input("enter num"))
 # z=x(p,q) 
 # print(z)
-#........................................
+
 
 # x=lambda x,y: print(x+y)
 # p=int(input("enter num"))
@@ -109,5 +109,4 @@
 # print(z)
 # print(z)
 
-#........................................
 
