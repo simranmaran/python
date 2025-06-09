@@ -58,12 +58,95 @@
 
 
 
-f=open('n.text','wb+')
-print(f.name)
-print(f.mode)
-print(f.encoding)
-print(f.readable())
-print(f.writable())
-print(f.closed)
-f.close
-f.close
+# f=open('n.text','wb+')
+# print(f.name)
+# print(f.mode)
+# print(f.encoding)
+# print(f.readable())
+# print(f.writable())
+# print(f.closed)
+# f.close
+# f.close
+
+
+# f=open('n1.txt','a+')
+# data=['python\n','django\n']
+# f.writelines(data)
+
+
+
+# f=open('n1.txt','a+')
+# data='''
+#       n=int(input("enter a num))
+#       i=1;
+#       while i<n:
+#             print(i)
+#             i=i+1
+# '''
+# f.writelines(data)
+# f.close()
+
+
+# f=open('n1.txt','a+')
+# data='''
+#       n=int(input("enter a num"))
+#       i=1
+#       while i<n:
+#             print(i)
+#             i=i+1
+# '''
+# f.write(data)
+# f.close()
+
+
+
+#read()
+#yeh kiisi bhi file ke  all data ko  read krta he eek ek character ke format me 
+
+#read(n)== read(5) mtlb sirf 5 hi character read krne he 
+#readline()=read single lines of data
+#readlines()=read lines multiples liens of data
+
+
+# f=open('n1.txt','r+')
+# data=f.read()
+# print(data)
+
+
+
+
+# f=open('n1.txt','r+')
+# data=f.read(10)
+# print(data)
+
+
+# f=open('n1.txt','r+')
+# data=f.readline()
+# print(data)
+
+
+# f=open('n1.txt','r+')
+# data=f.readlines()
+# print(data)
+
+
+
+
+# f=open('n1.txt','r+')
+# data1=f.read(5)
+# data2=f.read(10)
+# print(data1)
+# print(data2)
+
+
+# f=open('n1.txt','r+')
+# f.write("hello")
+# f.close
+
+
+# f=open('n1.txt','r+')
+# f.readline()
+# f.write("hello")
+
+#cursor movement 
+#tell()
