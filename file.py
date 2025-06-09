@@ -149,4 +149,17 @@
 # f.write("hello")
 
 #cursor movement 
-#tell()
+#tell()=to check current poaition on cursor
+#seak()= how many positions move from where (0,1,2,) 0 is the starting point , 1 is the currenmt position , 2 is the last postion 
+# f=open('n1.txt','r+')
+# print(f.tell())
+# f.read(5)
+# print(f.tell())
+
+
+
+f=open('n1.txt','r+')
+print(f.tell())
+f.read(5)
+f.seek(0)
+print(f.tell())
