@@ -158,8 +158,9 @@
 
 
 
-# f=open('n1.txt','r+')
-# print(f.tell())
-# f.read(5)
-# f.seek(0)
-# print(f.tell())
+f=open('n1.txt','r+')
+print(f.tell())
+f.read(5)
+f.seek(0)
+f.seek(1)
+print(f.tell())
