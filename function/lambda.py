@@ -41,7 +41,7 @@
 # print(list(p))
 
  #max digit
-from functools import reduce 
-l=[1,2,3,4,5,6,7,8,9,4]
-x= reduce (lambda p,q: p if p>q else q ,l)
- print(x)
+# from functools import reduce 
+# l=[1,2,3,4,5,6,7,8,9,4]
+# x= reduce (lambda p,q: p if p>q else q ,l)
+#  print(x)
