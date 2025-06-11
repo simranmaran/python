@@ -1,4 +1,4 @@
-hellon
+hello
 django
 
       n=int(input("enter a num))
@@ -12,4 +12,4 @@ django
       while i<n:
             print(i)
             i=i+1
-hello
+hellopythonpythonpythonjythonpythonjython

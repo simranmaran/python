@@ -158,9 +158,76 @@
 
 
 
-f=open('n1.txt','r+')
-print(f.tell())
-f.read(5)
-f.seek(0)
-f.seek(1)
-print(f.tell())
+# f=open('n1.txt','r+')
+# print(f.tell())
+# f.read(5)
+# f.seek(0)
+# f.seek(1)
+# print(f.tell())
+
+
+
+
+
+# f=open('n1.txt','r+')
+# data=f.read(10)
+# print(data)
+# print(f.tell())
+# data=f.read(5)
+# print(data)
+# print(f.tell())
+
+
+# f=open('n1.txt','r+')
+# data=f.read(10)
+# print(data)
+# print(f.tell())
+# f.seek(0,0)
+# print(f.tell())
+
+
+# f=open('n1.txt','r+')
+# data=f.read(10)
+# print(data)
+# print(f.tell())
+# f.seek(4,0)   #0 se move kr rha he 4th bale positin per
+# print(f.tell())
+
+
+
+
+# f=open('n1.txt','rb+')
+# data=f.read(10)
+# print(data)
+# print(f.tell())
+# f.seek(-4,2)   #  yeh 1 or 2 tb kam krengeaaa jab ham b+ add krenge
+# print(f.tell())
+
+
+
+# f=open('n1.txt','rb+')
+# data=f.read()
+# print(f.tell())
+# f.seek(1,2)
+# print(f.tell())
+
+
+#interview level question
+#manlo mere passss 0 se 10 tk data he  beeech me kahi python likha he  or yeh python 6 character ka he
+f=open('n1.txt','a+')
+f.seek(5,0)  # 0 se move kr rha he 5th bale positin per
+f.write("jython")  # yeh python ko 5th position per likh dega
+f.seek(0,0)  # 0 se move kr rha he 0th bale positin per
+data=f.read()   
+print(data)
+
+
+
+
+
+
+
+
+
+
+
