@@ -212,19 +212,44 @@
 # print(f.tell())
 
 
-#interview level question
-#manlo mere passss 0 se 10 tk data he  beeech me kahi python likha he  or yeh python 6 character ka he
-f=open('n1.txt','a+')
-f.seek(5,0)  # 0 se move kr rha he 5th bale positin per
-f.write("jython")  # yeh python ko 5th position per likh dega
-f.seek(0,0)  # 0 se move kr rha he 0th bale positin per
-data=f.read()   
-print(data)
+# #interview level question
+# #manlo mere passss 0 se 10 tk data he  beeech me kahi python likha he  or yeh python 6 character ka he
+# f=open('n1.txt','a+')
+# f.seek(5,0)  # 0 se move kr rha he 5th bale positin per
+# f.write("jython")  # yeh python ko 5th position per likh dega
+# f.seek(0,0)  # 0 se move kr rha he 0th bale positin per
+# data=f.read()   
+# print(data)
+# f.close()
+
+
+# f=open('n1.txt','r+')
+# print(f.tell())
+# f.read(10)
+# print(f.tell())
+# f.seek(5)
+# print(f.tell())
+# f.write('python')
+# f.close()
+
+
+# #with open , open me diffff
+# with open('n1.txt','r+') as f:    #yaha ek block create ho rha he
+#     print(f.tell())
+#     f.read(10)
+#     print(f.tell())
+#     f.seek(5)
+#     print(f.tell())
+#     f.write('python')
+# print(f.closed)  #yaha f.close() likhne ki jarurat nahi he , yeh khud hi close ho jayega
 
 
 
 
-
+f=open('n1.txt','r+')
+print(f.closed)
+f.close()
+print(f.closed)  
 
 
 
