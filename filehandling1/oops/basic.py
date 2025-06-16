@@ -75,3 +75,6 @@ class Student:
 obj=Student('simmi','btech')
 print(id(obj))
 #self ek referece variable he jo cufrrent obj ka adresss hold krta he 
+
+
+#current class ka current obj hold krta he 
